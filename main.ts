@@ -1046,9 +1046,3 @@ game.onUpdate(function on_on_update() {
     }
     
 })
-forever(function on_forever() {
-    for (let index = 0; index < 3; index++) {
-        music.playMelody("C E G C E G D F ", 180)
-    }
-    music.playMelody("C E G C E G - - ", 180)
-})

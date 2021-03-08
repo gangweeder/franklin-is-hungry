@@ -1115,8 +1115,3 @@ def on_on_update():
         Franklin.set_image(Franklin.image)
 game.on_update(on_on_update)
 
-def on_forever():
-    for index in range(3):
-        music.play_melody("C E G C E G D F ", 180)
-    music.play_melody("C E G C E G - - ", 180)
-forever(on_forever)
